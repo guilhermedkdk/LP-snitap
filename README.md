@@ -31,7 +31,7 @@ A Snitap Landing Page foi um mini projeto do curso Fullstack da Rocketseat no m�
 Este projeto foi feito dentro do curso de Fullstack no módulo "Avançando HTML e CSS" da Rocketseat.
 Nele pude consolidar os conhecimentos sobre:
 
-### HTML
+### CSS
 - Animações
 - Transições
 - Funções
