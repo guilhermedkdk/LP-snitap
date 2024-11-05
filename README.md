@@ -24,11 +24,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto e Desafio
 
-A Snitap Landing Page foi um mini projeto do curso Fullstack da Rocketseat no módulo "Avançando HTML e CSS", onde apliquei animações, transições e como desafio tornei ela responsiva para mobile, criando uma landing page dinâmica e adaptável.
+A Snitap Landing Page foi um mini projeto do curso Fullstack da Rocketseat no módulo "HTML e CSS Avançado", onde apliquei animações, transições e como desafio tornei ela responsiva para mobile, criando uma landing page dinâmica e adaptável.
 
 ## 📚 Aprendizados
 
-Este projeto foi feito dentro do curso de Fullstack no módulo "Avançando HTML e CSS" da Rocketseat.
+Este projeto foi feito dentro do curso de Fullstack no módulo "HTML e CSS Avançado" da Rocketseat.
 Nele pude consolidar os conhecimentos sobre:
 
 ### CSS
