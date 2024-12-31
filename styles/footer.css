@@ -1,12 +1,13 @@
 footer {
-  max-width: 80rem;
-  width: 100%;
-  padding: 4rem 2rem 2rem;
-  margin-inline: auto;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  max-width: 80rem;
+  width: 100%;
+
+  padding: 4rem 2rem 2rem;
+  margin-inline: auto;
 
   & .logo {
     display: flex;
@@ -40,13 +41,13 @@ footer {
 
       &::after {
         content: "";
-        width: 100%;
-        height: 2px;
-        background-color: var(--snitap-sky-mid);
-
         position: absolute;
         bottom: 0;
         left: 0;
+
+        width: 100%;
+        height: 2px;
+        background-color: var(--snitap-sky-mid);
 
         opacity: 0;
         transform: scaleX(0);
@@ -60,16 +61,15 @@ footer {
     align-items: center;
 
     & a {
-      width: 2.5rem;
-      height: 2.5rem;
-
+      position: relative;
       display: flex;
       align-items: center;
       justify-content: center;
 
-      border-radius: 5rem;
+      width: 2.5rem;
+      height: 2.5rem;
 
-      position: relative;
+      border-radius: 80px;
 
       &:hover::before {
         scale: 1;
@@ -82,16 +82,16 @@ footer {
 
       &::before {
         content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+
         width: inherit;
         height: inherit;
         border-radius: inherit;
 
         background: var(--snitap-sun);
-
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
 
         scale: 0;
         transition: scale 200ms;

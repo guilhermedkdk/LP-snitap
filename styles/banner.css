@@ -1,11 +1,13 @@
 .banner {
-  width: 100%;
-  padding-block: 2.5rem;
   overflow: hidden;
 
+  width: 100%;
+  padding-block: 2.5rem;
+
   .scroller {
-    width: 100%;
     overflow: hidden;
+
+    width: 100%;
     padding-block: 1rem;
   }
 

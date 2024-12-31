@@ -1,13 +1,13 @@
 section.hero {
-  max-width: 80rem;
-  width: 100%;
-  padding: 2.5rem 2rem;
-  margin-inline: auto;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
+
+  max-width: 80rem;
+  width: 100%;
+  padding: 2.5rem 2rem;
+  margin-inline: auto;
 
   & h1 {
     max-width: 40rem;
@@ -15,10 +15,11 @@ section.hero {
 
   & h1 div {
     display: inline-block;
+    vertical-align: bottom;
+    overflow: hidden;
+
     width: min-content;
     height: 5rem;
-    overflow: hidden;
-    vertical-align: bottom;
   }
 
   & h1 span:nth-child(1),
@@ -50,7 +51,7 @@ section.hero {
       align-items: center;
       gap: 0.75rem;
 
-      border-radius: 5rem;
+      border-radius: 80px;
 
       transition: scale 350ms;
 
@@ -63,6 +64,7 @@ section.hero {
         display: flex;
         padding: 1.5rem;
         border-radius: 50%;
+
         background-color: white;
       }
 
@@ -84,9 +86,9 @@ section.hero {
     height: 30.5rem;
 
     & .content {
+      position: relative;
       width: 100%;
       height: 100%;
-      position: relative;
     }
 
     & img {
@@ -111,9 +113,10 @@ section.hero {
     }
 
     & img[src*="stars-1"] {
-      max-width: 5.5rem;
-      top: 30%;
       z-index: 0;
+      top: 30%;
+
+      max-width: 5.5rem;
 
       opacity: 0;
       transform: translateX(400%);
@@ -121,9 +124,9 @@ section.hero {
     }
 
     & img[src*="stars-2"] {
-      max-width: 2.5rem;
       right: 0;
       bottom: 35%;
+      max-width: 2.5rem;
 
       transform: translateX(400%);
       animation: slideIn 2.2s 800ms ease both;
@@ -172,18 +175,20 @@ section.hero {
 
     & > div:nth-child(2) {
       order: 1;
-      margin-bottom: 2rem;
       width: 19.5rem !important;
       height: 19.5rem !important;
+
+      margin-bottom: 2rem;
 
       & img[src*="stars-1"] {
         max-width: 3.5rem !important;
       }
 
       & img[src*="stars-2"] {
-        max-width: 1.5rem !important;
         right: 0;
         bottom: 35%;
+
+        max-width: 1.5rem !important;
         opacity: 0;
 
         transform: translateX(400%);
